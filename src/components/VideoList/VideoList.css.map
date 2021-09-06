@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAClC,AAAA,UAAU,CAAA;IACP,SAAS,EAAE,MAAM;GACpB",
+    "mappings": "AAMA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAClC,AAAA,UAAU,CAAA;IACP,SAAS,EAAE,MAAM;GACpB",
     "sources": [
         "VideoList.scss"
     ],
