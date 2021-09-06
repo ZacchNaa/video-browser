@@ -1,0 +1,27 @@
+.nav {
+  border: 0.1rem solid #e4e4e4;
+  text-align: right;
+  padding: 1rem 2rem;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.nav ul li a {
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
+  padding: 1rem;
+}
+
+.nav ul li a:active {
+  color: tomato;
+}
+
+.nav ul li a:hover {
+  border-bottom: 0.1rem solid tomato;
+  color: tomato;
+}
+/*# sourceMappingURL=Nav.css.map */

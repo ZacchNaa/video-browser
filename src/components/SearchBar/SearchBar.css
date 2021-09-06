@@ -1,0 +1,43 @@
+.searchbar {
+  color: #555;
+  width: 80%;
+  margin: 0 auto;
+  border: 0.1rem solid #e4e4e4;
+  border-radius: 1rem;
+}
+
+.searchbar .searchbar__form {
+  width: 100%;
+}
+
+.searchbar .searchbar__form .searchbar__form__field {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.searchbar .searchbar__form .searchbar__form__field input {
+  padding: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 1rem;
+  border: 0.1rem solid #e4e4e4;
+  outline: none;
+}
+
+.searchbar .searchbar__form .searchbar__form__field input:focus {
+  border: 0.1rem solid skyblue;
+}
+
+@media screen and (max-width: 760px) {
+  .searchbar__form__field input {
+    width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .searchbar .searchbar__form__field input {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=SearchBar.css.map */

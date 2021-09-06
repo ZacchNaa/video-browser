@@ -1,0 +1,25 @@
+$borderColor: #e4e4e4;
+
+.nav {
+    border: 0.1rem solid $borderColor;
+    text-align: right;
+    padding: 1rem 2rem;
+	ul {
+		li {
+			display: inline-block;
+			margin-left: 2rem;
+            font-size: 2rem;
+            a{
+                text-decoration: transparent;
+                padding: 1rem;
+                &:active{
+                    color: tomato;
+                }
+                &:hover{
+                    border-bottom: 0.1rem solid tomato;
+                    color: tomato;
+                }
+            }
+		}
+	}
+}

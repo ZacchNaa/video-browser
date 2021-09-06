@@ -1,0 +1,51 @@
+// variables
+$color: #555;
+$borderRadius: 1rem;
+$borderColor: #e4e4e4;
+
+// styles for the search component
+.searchbar {
+	color: $color;
+	width: 80%;
+	margin: 0 auto;
+	border: 0.1rem solid $borderColor;
+	border-radius: $borderRadius;
+	.searchbar__form {
+		width: 100%;
+		.searchbar__form__field {
+			width: 100%;
+			padding: 2rem 0;
+			input {
+				padding: 1.5rem;
+				width: 90%;
+				margin: 0 auto;
+				display: block;
+				border-radius: $borderRadius;
+				border: 0.1rem solid $borderColor;
+                outline: none;
+				&:focus {
+					border: 0.1rem solid skyblue;
+				}
+			}
+		}
+	}
+}
+
+// media queries
+@media screen and (max-width: 760px) {
+	.searchbar__form__field {
+		input {
+			width: 70% !important;
+		}
+	}
+}
+
+@media screen and (min-width: 760px) {
+	.searchbar {		
+        .searchbar__form__field {
+		input {
+			font-size: 2rem;
+		}
+	}
+	}
+}
