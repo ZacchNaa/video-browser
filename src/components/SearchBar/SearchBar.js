@@ -3,7 +3,7 @@ import "./SearchBar.css";
 
 export default class SearchBar extends Component {
     // state declaration
-    state = { searchTerm: "reactjs" };
+    state = { searchTerm: "" };
     
     // handlers
     onInputChange = (e) => {

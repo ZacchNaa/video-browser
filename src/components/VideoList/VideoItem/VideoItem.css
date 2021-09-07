@@ -1,4 +1,37 @@
 .videoItem {
-  background-color: beige;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.videoItem img {
+  width: 20rem;
+  min-width: 20rem;
+  height: 10rem;
+}
+
+.videoItem .videoItem__description {
+  font-size: 1.2vw;
+  text-align: left;
+  display: block;
+  margin: 0 1rem;
+}
+
+.videoItem .videoItem__description h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.videoItem .videoItem__description p {
+  color: #999;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=VideoItem.css.map */

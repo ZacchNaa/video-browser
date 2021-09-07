@@ -1,5 +1,18 @@
 .home{
     width: 90%;
     margin: 0 auto;
-    border: 0.1rem solid #e4e4e4;
+}
+
+.home .videoContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media screen and (max-width:860px) {
+    .home .videoContent{
+    display: flex;
+   flex-direction: column;
+   margin-bottom: 6rem;
+}
 }

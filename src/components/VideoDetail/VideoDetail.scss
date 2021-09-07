@@ -1,0 +1,29 @@
+.videoDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 120%;
+    height: 45rem;
+    margin-right: 1rem;
+    .videoThumbnail{
+        width: 100%;
+        iframe{
+            width: 100%;
+            height: 36rem;
+        }
+    }
+    .videoDetailDescription{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:860px) {
+   .videoDetail{
+        width: 100%;
+        margin-right: 2rem;
+       .videoThumbnail{
+           width: 100%;
+   }
+   }
+}

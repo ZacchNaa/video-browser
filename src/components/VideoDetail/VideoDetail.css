@@ -1,0 +1,42 @@
+.videoDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 120%;
+  height: 45rem;
+  margin-right: 1rem;
+}
+
+.videoDetail .videoThumbnail {
+  width: 100%;
+}
+
+.videoDetail .videoThumbnail iframe {
+  width: 100%;
+  height: 36rem;
+}
+
+.videoDetail .videoDetailDescription {
+  text-align: left;
+}
+
+@media screen and (max-width: 860px) {
+  .videoDetail {
+    width: 100%;
+    margin-right: 2rem;
+  }
+  .videoDetail .videoThumbnail {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=VideoDetail.css.map */
