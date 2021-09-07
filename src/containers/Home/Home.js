@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import AppTitle from "../../components/AppTitle/AppTitle";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import VideoDetail from "../../components/VideoDetail/VideoDetail";
 import VideoList from "../../components/VideoList/VideoList";
