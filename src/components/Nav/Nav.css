@@ -2,6 +2,42 @@
   border: 0.1rem solid #e4e4e4;
   text-align: right;
   padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .wrapLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .wrapLogo .logo {
+  font-size: 2rem;
+  background-color: red;
+  color: aliceblue;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+.nav h2 {
+  font-size: 2rem;
+  margin: 0;
 }
 
 .nav ul li {

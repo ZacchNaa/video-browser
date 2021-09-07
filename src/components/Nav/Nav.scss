@@ -4,6 +4,27 @@ $borderColor: #e4e4e4;
     border: 0.1rem solid $borderColor;
     text-align: right;
     padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .wrapLogo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            font-size: 2rem;
+            background-color: red;
+            color: aliceblue;
+            padding: 0.5rem 2rem;
+            border-radius: 1rem;
+            margin-right: 1rem;
+            font-weight: 600;
+        }
+    }
+    h2{
+        font-size: 2rem;
+        margin: 0;
+    }
 	ul {
 		li {
 			display: inline-block;

@@ -4,19 +4,21 @@ import "./Nav.css";
 
 const Nav = () => {
   return (
-    <div className="nav">
-      <ul>
-        <li>
-          <Link to="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/About">About</Link>
-        </li>
-      </ul>
-    </div>
-  );
+		<div className="nav">
+			<div className="wrapLogo">
+				<span className="logo">U</span>
+				<h2>U-myTube</h2>
+			</div>
+			<ul>
+				<li>
+					<Link to="/">Home</Link>
+				</li>
+				<li>
+					<Link to="/About">About</Link>
+				</li>
+			</ul>
+		</div>
+	);
 };
 
 export default Nav;
