@@ -2,6 +2,7 @@ import React from "react";
 import "./VideoDetail.css";
 
 const VideoDetail = ({ video }) => {
+    // declaring the src of the iframe
 	const videoSrc = `http://www.youtube.com/embed/${video?.id.videoId}`;
 	return (
 		<div className="videoDetail">

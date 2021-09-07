@@ -22,12 +22,13 @@ class Home extends Component {
     this.setState({
       videos: response.data.items,
       selectedVideo: response.data.items[0]
+      // make the first video of every search, the selected video
     });
   };
   
   onVideoSelect = video => {
+    // update the state with the selected video of the user
     this.setState({ selectedVideo: video });
-    // console.log(video.snippet.title);
   }
 	// Component Render
 	render() {
