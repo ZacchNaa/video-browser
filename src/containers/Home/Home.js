@@ -36,7 +36,7 @@ class Home extends Component {
 				<AppTitle title="Welcome to Our YouTube Page" />
 				<SearchBar onSearchTermSubmit={this.onSearchTermSubmit} />
 				<div className="videoContent">
-					<VideoDetail className="videoContent__vd" video={this.state.selectedVideo} />
+					<VideoDetail video={this.state.selectedVideo} />
 					<VideoList
 						videos={this.state.videos}
 						onVideoSelect={this.onVideoSelect}
