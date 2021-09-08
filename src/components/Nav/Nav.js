@@ -16,6 +16,9 @@ const Nav = () => {
 				<li>
 					<Link to="/About">About</Link>
 				</li>
+				<li>
+					<Link to="/Wikis">Wiki Search</Link>
+				</li>
 			</ul>
 		</div>
 	);

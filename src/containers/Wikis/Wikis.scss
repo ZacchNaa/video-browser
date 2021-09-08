@@ -1,0 +1,10 @@
+.wikis{
+    text-align: left;
+    font-size: 2vw;
+
+    // class from search component, for the dangerouslySetInnerHTML span
+    // NOTE: it renders html span tags with class=searchmatch
+    .searchmatch{
+        color: red;
+    }
+}
