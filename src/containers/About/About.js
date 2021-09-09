@@ -50,7 +50,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="a__title" >
-			<AppTitle title="Showing reusable components" />
+			<AppTitle title="Reusable components" />
       </div>
 			<div className="about__content">
         <div className="ac__accordion">
