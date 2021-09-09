@@ -1,0 +1,18 @@
+.about__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.a__title{
+    margin-top: 2rem;
+}
+
+.ac__accordion{
+    background-color: antiquewhite;
+}
+.ac__dropdown{
+    background-color: aqua;
+}

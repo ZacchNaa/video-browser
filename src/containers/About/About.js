@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Accordion from "../../components/Accordion/Accordion";
 import AppTitle from "../../components/AppTitle/AppTitle";
+import Dropdown from "../../components/Dropdown/Dropdown";
 import "./About.css";
 
-const About = () => {
+
   // just creating dummy content for accordion
   const items = [
     {
@@ -22,12 +23,45 @@ const About = () => {
       content:"React is use by creating components, mostly reusable"
     },
   ]
+
+  // just creating dummy content for dropdown
+  const options = [
+    {
+      id: 1,
+      label: "the color red",
+      value: "red",
+    },
+    {
+      id: 2,
+      label: "the color green",
+      value: "green",
+    },
+    {
+      id: 3,
+      label: "A Shade of blue",
+      value: "blue",
+    },
+];
+  
+// about component
+const About = () => {
+// state for the dropdown
+  const [selected, setSelected] = useState(options[0])
   return (
-    <div>
-      <AppTitle title="Welcome to Our About Page" />
-      <Accordion items={items} />
-    </div>
-  );
+    <div className="about">
+      <div className="a__title" >
+			<AppTitle title="Welcome to Our About Page" />
+      </div>
+			<div className="about__content">
+        <div className="ac__accordion">
+					<Accordion items={items} />
+				</div>
+        <div className="ac__dropdown">
+					<Dropdown selected={selected} onSelectedChange={setSelected} options={options} />
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default About;

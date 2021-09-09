@@ -47,7 +47,7 @@ const Search = () => {
                 clearTimeout(timeOutId)
             }
         }
-    }, [term, results])
+    }, [term, results.length])
 
     // mapping results
     const renderedResults = results.map((result) => {
